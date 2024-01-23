@@ -1,4 +1,4 @@
-Create a new Python file in this folder called award.py.
+● Create a new Python file in this folder called award.py.
 
 ● Design a program that determines the award a person competing in
 the triathlon will receive.
