@@ -27,23 +27,26 @@ interest, and store this in a variable called interest. Depending on
 whether or not they typed “simple” or “compound”, output the
 appropriate amount that they will get back after the given period,
 at the specified interest rate. See below for the formula to be used:
-Interest formula:
-The total amount when simple interest is applied is calculated as
+
+| Interest formula                                             |
+|--------------------------------------------------------------|
+| The total amount when simple interest is applied is calculated as
 follows: 𝐴 = 𝑃(1 + 𝑟 × 𝑡)
 The Python equivalent is very similar: A = P *(1 + r*t)
 The total amount when compound interest is applied is calculated as
 follows: 𝐴 = 𝑃(1 + 𝑟)𝑡
 The Python equivalent is slightly different: A = P * math.pow((1+r),t)
 In the formulae above:
-● ‘r’ is the interest entered above divided by 100, e.g. if 8% is entered,
+● 'r' is the interest entered above divided by 100, e.g. if 8% is entered,
 then r is 0.08.
-● ‘P’ is the amount that the user deposits.
-● ‘t’ is the number of years that the money is being invested.
-● ‘A’ is the total amount once the interest has been applied.
+● 'P' is the amount that the user deposits.
+● 't' is the number of years that the money is being invested.
+● 'A' is the total amount once the interest has been applied.|
+
 Print out the answer!
 ○ Try entering 20 years and 8 (%) and see what the difference is
 depending on the type of interest rate!
-4. If the user selects ‘bond’, do the following:
+5. If the user selects 'bond', do the following:
 ● Ask the user to input:
 ○ The present value of the house. e.g. 100000
 ○ The interest rate. e.g. 7
@@ -52,7 +55,7 @@ depending on the type of interest rate!
 | Bond Repayment Formula                                       |
 |--------------------------------------------------------------|
 | The amount that a person will have to be repaid on a home loan each month is calculated as follows: $$𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}}$$
-The Python equivalent is slightly different: ___repayment = (i * P) / (1 - (1 + i)**(-n))___
+The Python equivalent is slightly different: ___repayment = (i * P) / (1 - (1 + i)**(-n))___|
 In the formula above: 
 - 'P' is the present value of the house.
 - 'i' is the monthly interest rate, calculated by dividing the annual interest rate by 12. Remember to divide the interest entered by the user by 100 e.g. (8 / 100) before dividing by 12.
