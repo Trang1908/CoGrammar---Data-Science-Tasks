@@ -60,6 +60,7 @@ In the formula above:
 ‘i’ is the monthly interest rate, calculated by dividing the annual
 interest rate by 12. Remember to divide the interest entered by
 the user by 100 e.g. (8 / 100) before dividing by 12.
-● ‘n’ is the number of months over which the bond will be repaid.|
+● ‘n’ is the number of months over which the bond will be repaid.
+---
 Calculate how much money the user will have to repay each month
 and output the answer.
