@@ -35,7 +35,7 @@ follows: ___𝐴 = 𝑃(1 + 𝑟 × 𝑡)___
 The Python equivalent is very similar: ___A = P * (1 + r * t)___
 The total amount when compound interest is applied is calculated as
 follows: **$𝐴 = 𝑃(1 + 𝑟)^𝑡$**
-The Python equivalent is slightly different: A = P * math.pow((1+r),t)
+The Python equivalent is slightly different: ___A = P * math.pow((1+r),t)___
 In the formulae above:
 ● 'r' is the interest entered above divided by 100, e.g. if 8% is entered,
 then r is 0.08.
@@ -54,12 +54,12 @@ depending on the type of interest rate!
 
 | Bond Repayment Formula                                       |
 |--------------------------------------------------------------|
-| The amount that a person will have to be repaid on a home loan each month is calculated as follows: $$𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}}$$
-The Python equivalent is slightly different: ___repayment = (i * P) / (1 - (1 + i)**(-n))___|
+| The amount that a person will have to be repaid on a home loan each month is calculated as follows: **$$𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}}$$**
+The Python equivalent is slightly different: ___repayment = (i * P) / (1 - (1 + i)**(-n))___
 In the formula above: 
 - 'P' is the present value of the house.
 - 'i' is the monthly interest rate, calculated by dividing the annual interest rate by 12. Remember to divide the interest entered by the user by 100 e.g. (8 / 100) before dividing by 12.
-- 'n' is the number of months over which the bond will be repaid.
+- 'n' is the number of months over which the bond will be repaid.|
 
 Calculate how much money the user will have to repay each month
 and output the answer.
