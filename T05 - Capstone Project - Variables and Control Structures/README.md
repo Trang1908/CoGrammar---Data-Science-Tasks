@@ -51,7 +51,19 @@ depending on the type of interest rate!
 
 | Bond Repayment Formula                                       |
 |--------------------------------------------------------------|
-| Bond repayment formula: The amount that a person will have to be repaid on a home loan each month is calculated as follows: 𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = 𝑖 × 𝑃 1− (1+𝑖)−𝑛 The Python equivalent is slightly different: `repayment = (i * P)/(1 - (1 + i)**(-n))` In the formula above: - ‘P’ is the present value of the house. - ‘i’ is the monthly interest rate, calculated by dividing the annual interest rate by 12. Remember to divide the interest entered by the user by 100 e.g. (8 / 100) before dividing by 12. - ‘n’ is the number of months over which the bond will be repaid. |
+| The amount that a person will have to be repaid on a home loan each month is calculated as follows: 
+
+**\[ 𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}} \]**
+
+The Python equivalent is slightly different: 
+
+**repayment = (i * P)/(1 - (1 + i)**(-n))**
+
+In the formula above: 
+
+- 'P' is the present value of the house.
+- 'i' is the monthly interest rate, calculated by dividing the annual interest rate by 12. Remember to divide the interest entered by the user by 100 e.g. (8 / 100) before dividing by 12.
+- 'n' is the number of months over which the bond will be repaid. |
 
 
 Calculate how much money the user will have to repay each month
