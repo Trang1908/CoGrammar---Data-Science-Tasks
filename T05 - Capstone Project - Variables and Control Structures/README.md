@@ -31,10 +31,10 @@ at the specified interest rate. See below for the formula to be used:
 | Interest formula                                             |
 |--------------------------------------------------------------|
 | The total amount when simple interest is applied is calculated as
-follows: 𝐴 = 𝑃(1 + 𝑟 × 𝑡)
-The Python equivalent is very similar: A = P *(1 + r*t)
+follows: ___𝐴 = 𝑃(1 + 𝑟 × 𝑡)___
+The Python equivalent is very similar: ___A = P * (1 + r * t)___
 The total amount when compound interest is applied is calculated as
-follows: 𝐴 = 𝑃(1 + 𝑟)𝑡
+follows: ___$𝐴 = 𝑃(1 + 𝑟)^𝑡$___
 The Python equivalent is slightly different: A = P * math.pow((1+r),t)
 In the formulae above:
 ● 'r' is the interest entered above divided by 100, e.g. if 8% is entered,
