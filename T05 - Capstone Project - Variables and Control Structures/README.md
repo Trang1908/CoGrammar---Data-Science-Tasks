@@ -48,7 +48,8 @@ depending on the type of interest rate!
 ○ The present value of the house. e.g. 100000
 ○ The interest rate. e.g. 7
 ○ The number of months they plan to take to repay the bond. e.g. 120
-|Bond repayment formula:
+---
+Bond repayment formula:
 The amount that a person will have to be repaid on a home loan each
 month is calculated as follows: 𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = 𝑖 × 𝑃
 1− (1+𝑖)−𝑛
