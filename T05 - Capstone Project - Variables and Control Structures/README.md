@@ -51,7 +51,7 @@ depending on the type of interest rate!
 
 | Bond Repayment Formula                                       |
 |--------------------------------------------------------------|
-| The amount that a person will have to be repaid on a home loan each month is calculated as follows: $$𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}}$$
+| The amount that a person will have to be repaid on a home loan each month is calculated as follows: $$ 𝑟𝑒𝑝𝑎𝑦𝑚𝑒𝑛𝑡 = \frac{i \times P}{1 - (1 + i)^{-n}} $$
 
 The Python equivalent is slightly different: 
 
