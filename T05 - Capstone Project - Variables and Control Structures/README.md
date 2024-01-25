@@ -2,20 +2,23 @@ For this Capstone Project, assume that you have been approached by a small
 financial company and asked to create a program that allows the user to access
 two different financial calculators: an investment calculator and a home loan
 repayment calculator.
-● Create a new Python file in this folder called finance_calculators.py.
-● At the top of the file include the line: import math.
+
+● Create a new Python file in this folder called **finance_calculators.py**.
+● At the top of the file include the line: **import math**.
 ● Write the code that will do the following:
 1. The user should be allowed to choose which calculation they want to do.
 The first output that the user sees when the program runs should look like
-this :
-investment - to calculate the amount of interest you'll earn on your investment
+this:
+
+|investment - to calculate the amount of interest you'll earn on your investment
 bond - to calculate the amount you'll have to pay on a home loan
-Enter either 'investment' or 'bond' from the menu above to proceed:
-2. How the user capitalises their selection should not affect how the
+Enter either 'investment' or 'bond' from the menu above to proceed:|
+
+3. How the user capitalises their selection should not affect how the
 program proceeds. i.e. ‘Bond’, ‘bond’, ‘BOND’ or ‘investment’, ‘Investment’,
 ‘INVESTMENT’, etc., should all be recognised as valid entries. If the user
 doesn’t type in a valid input, show an appropriate error message.
-3. If the user selects ‘investment’, do the following:
+4. If the user selects ‘investment’, do the following:
 ● Ask the user to input:
 ○ The amount of money that they are depositing.
 ○ The interest rate (as a percentage). Only the number of the interest
