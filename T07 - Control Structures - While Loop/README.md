@@ -6,5 +6,5 @@ Follow these steps:
 to enter a number.
 - The program must then calculate the average of the numbers entered,
 excluding the -1.
--Make use of the while loop repetition structure to implement the
+- Make use of the while loop repetition structure to implement the
 program.
