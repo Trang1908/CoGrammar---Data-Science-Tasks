@@ -28,4 +28,4 @@ Convert them as follows:
 - num3 into a String
 - string1 into an integer
 
-Print out all the variables on separate lines
+Print out all the variables on separate lines.
